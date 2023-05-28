@@ -75,4 +75,4 @@ class MoviePrediction(Resource):
 
 # Ejecución de la aplicación que disponibiliza el modelo de manera local en el puerto 5000
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=False, host='0.0.0.0', port=5000)  
+    app.run(debug=True, use_reloader=False, host='0.0.0.0', port=8888)  
